@@ -91,6 +91,12 @@ installing component-test
   create tests/integration/components/blog-post/comment-test.js
 ```
 
+You can invoke a nested component using `::` as a directory separator:
+
+```handlebars
+<BlogPost::Comment>
+```
+
 ## Component Templates
 
 Templates in components use the Handlebars templating language, as discussed in
